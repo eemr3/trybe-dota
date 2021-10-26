@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: rgb(247, 247, 247);
+}
+
+.dota__header {
+  align-items: center;
+  background-color: rgb(51, 51, 51);
+  color: whitesmoke;
+  display: flex;
+  height: 70px;
+  top: 0;
+  position: sticky;
+}
+
+.dota__header h1 {
+  margin-left: 50px;
+}
+
+.dota__container {
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.dota__card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dota__card-item {
+  margin: 5px;
+}
+
+.dota__card-item img {
+  width: 300px;
+}
