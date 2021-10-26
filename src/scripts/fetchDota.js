@@ -4,4 +4,6 @@ const fetchApiDota = () => {
     .then((data) => data);
 };
 
-if (typeof module !== 'undefined') module.exports = { fetchApiDota };
+if (typeof module !== 'undefined') {
+  module.exports = { fetchApiDota };
+}
